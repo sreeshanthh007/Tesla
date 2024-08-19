@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.tesla-logo {
+    width: 140px;
+    height: 13px;
+    gap: 10px;
+
+}
+
+.head-items {
+    /* display: flex; */
+
+
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 100%;
+    padding-left: 40px;
+
+}
+
+.head-styling {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.head-styling a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.model-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 43px;
+    color: white;
+}
+
+.apr-financing {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    line-height: 38px;
+
+}
+
+#apr {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.cash {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    padding-top: 6px;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 880px;
+    left: 700px;
+    width: 541px;
+    color: #fff;
+    height: 45px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    background-color: royalblue;
+    width: 250px;
+}
+
+.footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    background-color: #fff;
+    width: 250px;
+    color: black;
+}
+
+
+main .container {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+} 
+.model-y{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 43px;
+    font-weight: bold;
+
+}
+.finance1{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    line-height: 38px;
+    color: #fff;
+    text-underline-offset: 6px;
+
+}
+.cash-2{
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    padding-top: 6px;
+    color: #fff;
+}
+.button-2{
+    display: flex;
+    width: 541px;
+    gap: 10px;
+    border-radius: 6px;
+    height: 45px;
+    position: absolute;
+    bottom: 50px;
+    
+
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width:541px;
+    height: 36px;
+    align-items: center;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    width:541px;
+    height: 36px;
+    align-items: center;
+    color: #fff;
+}
+.top-items3{
+    
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.ordering3{
+    text-align: center;
+    padding-top: 100px;
+}
+.model-x{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.top-items3 .cash-3{
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+.apr-financing3{
+    color: #fff;
+    line-height: 22px;
+    font-size: 20px;
+    text-underline-offset: 4px;
+    font-weight: bolder;
+}
+.btn-items{
+    display: flex;
+    gap: 50px;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%);
+   border-radius: 5px;
+   width: 541px;
+   height: 45px;
+   margin-bottom: 10px;
+   
+
+
+}
+ .top-items3  .textsetting  {
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+}
+.order3{
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    width: 541px;
+    height: 36px;
+    align-items: center;
+    color: #fff;
+}
+.demo3{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 541px;
+    height: 36px;
+    align-items: center;
+}
+.fourthpage{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+
+}
+.model-s{
+    font-size: 56px;
+    font-weight: bold;
+      color: #fff;
+}.cash-4{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #fff;
+}
+.apr-4{
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    text-underline-offset: 3px;
+
+}
+.positions{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.buttons4{
+    display: flex;
+    bottom: 0px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 50px;
+    border-radius: 5px;
+    text-align: center;
+    width: 541px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.order4{
+    background-color: royalblue;
+    width: 541px;
+    height: 36px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.demo4{
+    background-color: #fff;
+    width: 541px;
+    height: 36px;
+    text-align: center;
+    padding: 10px;
+}
+.fifthpage{
+    background-image: url("https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg") ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.cybertruck{
+    display: flex;
+    justify-content: center;
+    padding-top: 215px;
+    
+}
+.cyber{
+    width: 306px;
+    height: 164px;
+    margin-bottom: 50px;
+}
+.buttons5{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    width: 541px;
+    height: 45px;
+    bottom: 0;
+
+}
+.order5{
+    background-color: rgb(31, 27, 27);
+    width: 543px;
+    height: 38px;
+    border-top: 3px solid cadetblue;
+    color: cadetblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-size-adjust: 10px;
+}
+.learn{
+    background-color: rgb(31, 27, 27);
+    width: 543px;
+    height: 38px;
+    text-align: center;
+    color: cadetblue;
+    font-size: 20px;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 575px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    line-height: 23px;
+
+
+}
+.fcontent{
+    width: 700px;
+    font-size: 13px;
+    margin-top: 72px;
+
+
+}
+.fcontent p{
+    margin-top: 10px;
+}
+.lastcontent{
+    font-size: 15px;
+}
